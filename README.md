@@ -1,23 +1,31 @@
 # MarTech_Dashboard
 
-以 `Streamlit + pandas + Plotly` 建立的 MarTech 儀錶板，直接讀取 `data/` 內的 CSV。
+A Streamlit dashboard for chocolate retail analysis, built with `Streamlit + pandas + Plotly`.
 
-## 安裝
+## Run locally
 
 ```bash
 pip install -r requirements.txt
-```
-
-## 啟動
-
-```bash
 streamlit run app.py
 ```
 
-## 內容
+## Deploy to Streamlit Community Cloud
+
+1. Push this repository to GitHub.
+2. Go to `https://share.streamlit.io/`.
+3. Click `Create app`.
+4. Select:
+   - Repository: `JoeyTaipei/dashboard-demo5`
+   - Branch: `main`
+   - Main file path: `app.py`
+5. Click `Deploy`.
+
+## App contents
 
 - Executive KPIs
 - Sales Trends
-- Customer Analytics
+- YoY / MoM / QoQ analysis
+- Customer Analytics with RFM
+- Brand Positioning
 - Product & Brand Performance
 - Channel & Geo
