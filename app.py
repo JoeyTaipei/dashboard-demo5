@@ -86,7 +86,7 @@ JEDI_PANEL_SVG = """
 
 
 st.set_page_config(
-    page_title="MarTech Dashboard",
+    page_title="MarTech_Dashboard",
     page_icon=":milky_way:",
     layout="wide",
     initial_sidebar_state="expanded",
